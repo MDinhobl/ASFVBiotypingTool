@@ -5,3 +5,6 @@ Note that this tool requires that BLAST and python are installed on your compute
 This is an example of using the files located within this folder. The ASFVG file is an example one - the Representative_p72 file should always be used. **Make sure to unpack the zip file!**
 
     python .\ASFVBiotyping.py -q .\ASFVG.fa
+
+### Dependencies
+Outside of Blast, the python packages are all part of the standard python download. That being said, here is a list of imported packages: Pandas, Glob, Os, Biopython, Argparse.
